@@ -99,6 +99,7 @@ const Login = () => {
                     sx={{
                         marginTop: 2,
                         backgroundColor: '#3D59DD',
+                        textTransform: 'capitalize',
                     }}
                     variant="contained"
                 >
@@ -106,7 +107,7 @@ const Login = () => {
                 </Button>
                 <Button
                     fullWidth
-                    sx={{ marginTop: 3 }}
+                    sx={{ marginTop: 3, textTransform: 'capitalize' }}
                     variant="outlined"
                     startIcon={<GoogleIcon />}
                 >
