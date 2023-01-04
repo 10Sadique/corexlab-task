@@ -3,17 +3,22 @@ import logo from '../assets/logo.svg';
 import rect from '../assets/rect-bottom.svg';
 import rect2 from '../assets/Rectangle2.svg';
 import rect3 from '../assets/Rectangle3.svg';
+import Login from '../components/Login';
 
-const Login = () => {
+const LoginPage = () => {
     return (
         <div className="grid grid-cols-2">
             {/* Login form section */}
-            <div className="h-screen">Login</div>
+            <div className="h-screen">
+                <div className="flex items-center justify-center h-full">
+                    <Login />
+                </div>
+            </div>
             {/* Info section */}
             <div className="h-screen bg-[#0022D2] relative overflow-hidden">
                 {/* Info image */}
                 <img
-                    className="w-[45%] absolute -bottom-3 -right-0 z-50"
+                    className="w-[45%] absolute -bottom-3 right-0 z-50"
                     src={loginImage}
                     alt=""
                 />
@@ -34,7 +39,7 @@ const Login = () => {
                 </div>
                 <div>
                     <img
-                        className="absolute -bottom-14 -left-10 w-[45%]"
+                        className="absolute bottom-4 -left-24 w-[45%]"
                         src={rect}
                         alt=""
                     />
@@ -59,4 +64,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default LoginPage;
