@@ -47,7 +47,7 @@ const LoginPage = () => {
                 {/* Text infos */}
                 <div className="h-[50vh] flex flex-col justify-between">
                     <div className="flex items-center justify-end px-10 pt-10">
-                        <img className="w-32" src={logo} alt="" />
+                        <img className="w-[200px]" src={logo} alt="" />
                     </div>
                     <div className="self-end px-10 text-right text-white">
                         <h2 className="mb-8 text-4xl">

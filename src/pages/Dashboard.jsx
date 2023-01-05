@@ -164,7 +164,7 @@ export default function Dashboard() {
             >
                 {/* <Toolbar /> */}
 
-                <img className="w-2/3 py-[16.5px] pl-4" src={logo} alt="" />
+                <img className="w-[120px] py-[18px] pl-4" src={logo} alt="" />
 
                 <Divider />
                 <Typography
