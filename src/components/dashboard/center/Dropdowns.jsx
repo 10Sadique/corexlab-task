@@ -25,7 +25,12 @@ const Dropdowns = () => {
                     borderRadius: '5px',
                 }}
             >
-                <Select value={age} displayEmpty onChange={handleChange}>
+                <Select
+                    value={age}
+                    displayEmpty
+                    onChange={handleChange}
+                    sx={{ fontSize: '12px', color: '#7A7A7A' }}
+                >
                     <MenuItem value="">Filter Activity 21/25</MenuItem>
                     <MenuItem value={10}>Filter Activity 21/26</MenuItem>
                     <MenuItem value={20}>Filter Activity 21/27</MenuItem>
@@ -42,7 +47,12 @@ const Dropdowns = () => {
                     borderRadius: '5px',
                 }}
             >
-                <Select value={age2} displayEmpty onChange={handleChange2}>
+                <Select
+                    value={age2}
+                    displayEmpty
+                    onChange={handleChange2}
+                    sx={{ fontSize: '12px', color: '#7A7A7A' }}
+                >
                     <MenuItem value="">All User</MenuItem>
                     <MenuItem value={1}>Admin</MenuItem>
                     <MenuItem value={2}>Developers</MenuItem>

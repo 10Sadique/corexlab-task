@@ -28,7 +28,7 @@ const Login = () => {
     };
 
     return (
-        <div className="text-gray-700">
+        <div className="text-gray-700 w-1/2">
             <Typography variant="h5" sx={{ fontWeight: 'bold' }}>
                 Sign In
             </Typography>
