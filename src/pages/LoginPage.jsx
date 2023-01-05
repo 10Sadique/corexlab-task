@@ -18,21 +18,21 @@ const LoginPage = () => {
             <div className="h-screen bg-[#0022D2] relative overflow-hidden">
                 {/* Info image */}
                 <img
-                    className="w-[45%] absolute -bottom-3 right-0 z-50"
+                    className="w-[350px] absolute -bottom-6 right-0 z-50"
                     src={loginImage}
                     alt=""
                 />
                 {/* rect image */}
                 <div>
                     <img
-                        className="absolute top-0 -left-14 w-[45%]"
+                        className="absolute top-0 -left-16 w-[45%] h-[55%]"
                         src={rect2}
                         alt=""
                     />
                 </div>
                 <div>
                     <img
-                        className="absolute -top-0 -left-5 w-[50%]"
+                        className="absolute -top-0 -left-5 w-[55%]"
                         src={rect3}
                         alt=""
                     />
