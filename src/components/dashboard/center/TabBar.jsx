@@ -18,7 +18,6 @@ export default function TabBar() {
                     borderRadius: '5px',
                     color: '#8D8C8C',
                     boxShadow: '0 5px 8px #00000016',
-                    fontSize: '12px',
                     fontWeight: 700,
                 }}
                 value={value}
@@ -35,6 +34,7 @@ export default function TabBar() {
                             value === 'one' ? '0 5px 5px #0000001d' : 'none',
                         color: value === 'one' ? '#000' : '#8D8C8C',
                         textTransform: 'capitalize',
+                        fontSize: '12px',
                     }}
                     value="one"
                     label="Activity"
@@ -47,6 +47,7 @@ export default function TabBar() {
                             value === 'two' ? '0 5px 5px #0000001d' : 'none',
                         color: value === 'two' ? '#000' : '#8D8C8C',
                         textTransform: 'capitalize',
+                        fontSize: '12px',
                     }}
                     value="two"
                     label="Notes"
@@ -59,6 +60,7 @@ export default function TabBar() {
                             value === 'three' ? '0 5px 5px #0000001d' : 'none',
                         color: value === 'three' ? '#000' : '#8D8C8C',
                         textTransform: 'capitalize',
+                        fontSize: '12px',
                     }}
                     value="three"
                     label="E-mails"
@@ -71,6 +73,7 @@ export default function TabBar() {
                             value === 'four' ? '0 5px 5px #0000001d' : 'none',
                         color: value === 'four' ? '#000' : '#8D8C8C',
                         textTransform: 'capitalize',
+                        fontSize: '12px',
                     }}
                     value="four"
                     label="Calls"
@@ -83,6 +86,7 @@ export default function TabBar() {
                             value === 'five' ? '0 5px 5px #0000001d' : 'none',
                         color: value === 'five' ? '#000' : '#8D8C8C',
                         textTransform: 'capitalize',
+                        fontSize: '12px',
                     }}
                     value="five"
                     label="Task"
@@ -95,6 +99,7 @@ export default function TabBar() {
                             value === 'six' ? '0 5px 5px #0000001d' : 'none',
                         color: value === 'six' ? '#000' : '#8D8C8C',
                         textTransform: 'capitalize',
+                        fontSize: '12px',
                     }}
                     value="six"
                     label="Meeting"

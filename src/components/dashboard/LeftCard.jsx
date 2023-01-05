@@ -2,7 +2,6 @@ import {
     AddCircleOutlineRounded,
     ArrowCircleLeftOutlined,
     EditRounded,
-    Google,
     LocalPhoneOutlined,
     MailOutlineRounded,
     MoreHorizOutlined,
@@ -10,7 +9,7 @@ import {
 import { Avatar, Button, Card, CardContent, Typography } from '@mui/material';
 import { deepOrange } from '@mui/material/colors';
 import { Box } from '@mui/system';
-import React from 'react';
+import g2 from '../../assets/g2.svg';
 import TabSection from './TabSection';
 
 const LeftCard = () => {
@@ -18,10 +17,17 @@ const LeftCard = () => {
         <Card>
             <CardContent>
                 <Box
-                    sx={{ display: 'flex', alignItems: 'center', gap: '16px' }}
+                    sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}
                 >
                     <ArrowCircleLeftOutlined sx={{ color: '#888' }} />
-                    <Typography variant="span">Back to Contact</Typography>
+                    <Typography
+                        fontSize={'12px'}
+                        fontWeight={700}
+                        color="#2B2B2B"
+                        variant="span"
+                    >
+                        Back to Contact
+                    </Typography>
                 </Box>
                 {/* Contact Avatar & Info */}
                 <Box
@@ -31,20 +37,24 @@ const LeftCard = () => {
                         justifyContent: 'center',
                         flexDirection: 'column',
                         gap: '12px',
-                        marginTop: 2,
-                        marginBottom: 2,
+                        marginTop: '40px',
+                        marginBottom: '27px',
                     }}
                 >
                     <Avatar
                         alt="Pattrick Leach"
                         src="https://xsgames.co/randomusers/assets/avatars/male/47.jpg"
                         sx={{
-                            width: 100,
-                            height: 100,
+                            width: 80,
+                            height: 80,
                             bgcolor: deepOrange[500],
+                            marginBottom: '11px',
                         }}
                     />
-                    <Typography variant="p" sx={{ fontWeight: 'bold' }}>
+                    <Typography
+                        variant="p"
+                        sx={{ fontWeight: 700, fontSize: '17px' }}
+                    >
                         Pattrick Leach
                     </Typography>
                     <Box
@@ -55,8 +65,14 @@ const LeftCard = () => {
                             fontSize: '12px',
                         }}
                     >
-                        <Google fontSize="small" />
-                        <Typography variant="p">Google</Typography>
+                        <img src={g2} alt="" />
+                        <Typography
+                            fontSize={'10px'}
+                            color="#878787"
+                            variant="p"
+                        >
+                            Google
+                        </Typography>
                     </Box>
                 </Box>
                 {/* Important Links */}
@@ -66,6 +82,7 @@ const LeftCard = () => {
                         alignItems: 'center',
                         gap: '10px',
                         justifyContent: 'space-around',
+                        marginBottom: '36px',
                     }}
                 >
                     <Box
@@ -76,8 +93,13 @@ const LeftCard = () => {
                             gap: '5px',
                         }}
                     >
-                        <AddCircleOutlineRounded />
-                        <Typography fontSize="small" variant="p">
+                        <AddCircleOutlineRounded color="disabled" />
+                        <Typography
+                            fontSize={'10px'}
+                            variant="p"
+                            fontWeight={400}
+                            color="#696868"
+                        >
                             Log
                         </Typography>
                     </Box>
@@ -89,8 +111,13 @@ const LeftCard = () => {
                             gap: '5px',
                         }}
                     >
-                        <MailOutlineRounded />
-                        <Typography fontSize="small" variant="p">
+                        <MailOutlineRounded color="disabled" />
+                        <Typography
+                            fontSize={'10px'}
+                            variant="p"
+                            fontWeight={400}
+                            color="#696868"
+                        >
                             Email
                         </Typography>
                     </Box>
@@ -102,8 +129,13 @@ const LeftCard = () => {
                             gap: '5px',
                         }}
                     >
-                        <LocalPhoneOutlined />
-                        <Typography fontSize="small" variant="p">
+                        <LocalPhoneOutlined color="disabled" />
+                        <Typography
+                            fontSize={'10px'}
+                            variant="p"
+                            fontWeight={400}
+                            color="#696868"
+                        >
                             Call
                         </Typography>
                     </Box>
@@ -115,20 +147,25 @@ const LeftCard = () => {
                             gap: '5px',
                         }}
                     >
-                        <MoreHorizOutlined />
-                        <Typography fontSize="small" variant="p">
+                        <MoreHorizOutlined color="disabled" />
+                        <Typography
+                            fontSize={'10px'}
+                            variant="p"
+                            fontWeight={400}
+                            color="#696868"
+                        >
                             More
                         </Typography>
                     </Box>
                 </Box>
                 {/* Edit contact button */}
-                <Box>
+                <Box sx={{ marginBottom: '48px' }}>
                     <Button
                         fullWidth
                         sx={{
-                            marginTop: 3,
                             textTransform: 'capitalize',
                             bgcolor: '#0022D2',
+                            fontSize: '12px',
                         }}
                         variant="contained"
                         endIcon={<EditRounded />}

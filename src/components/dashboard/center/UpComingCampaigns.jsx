@@ -1,6 +1,7 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 import CamapignOne from './CamapignOne';
+import CamapignTwo from './CampaignTwo';
 
 const UpComingCampaigns = () => {
     return (
@@ -14,7 +15,11 @@ const UpComingCampaigns = () => {
                 Upcoming Campaign
             </Typography>
             {/* Campaigns */}
-            <CamapignOne />
+            <div className={'space-y-4'}>
+                <CamapignOne />
+                <CamapignTwo />
+                <CamapignOne />
+            </div>
         </div>
     );
 };

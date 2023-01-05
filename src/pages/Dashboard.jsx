@@ -64,6 +64,7 @@ export default function Dashboard() {
                     color: '#222',
                 }}
             >
+                {/* Navbar */}
                 <Toolbar>
                     <Box
                         sx={{
@@ -75,6 +76,7 @@ export default function Dashboard() {
                     >
                         <FormControl variant="outlined">
                             <OutlinedInput
+                                width="300px"
                                 size="small"
                                 placeholder="Search.."
                                 id="input-with-icon-adornment"
@@ -113,7 +115,11 @@ export default function Dashboard() {
                                         alt="Will Smith"
                                         src="/static/images/avatar/1.jpg"
                                     />
-                                    <Typography variant="p">
+                                    <Typography
+                                        fontSize={'13px'}
+                                        color="#000"
+                                        variant="p"
+                                    >
                                         Will Smith
                                     </Typography>
                                     <KeyboardArrowDownRounded />
@@ -143,6 +149,7 @@ export default function Dashboard() {
                 </Toolbar>
                 <Divider />
             </AppBar>
+            {/* Drawer */}
             <Drawer
                 sx={{
                     width: drawerWidth,

@@ -46,7 +46,7 @@ export default function TabSection() {
     };
 
     return (
-        <Box sx={{ width: '100%', marginTop: '15px', fontSize: '14px' }}>
+        <Box sx={{ width: '100%', fontSize: '14px' }}>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs
                     value={value}
@@ -67,47 +67,102 @@ export default function TabSection() {
             </Box>
             <TabPanel value={value} index={0}>
                 {/* email */}
-                <Box sx={{ marginBottom: 1 }}>
-                    <Typography variant="p" fontSize={'small'} color="#888">
+                <Box sx={{ marginBottom: '17px' }}>
+                    <Typography
+                        variant="p"
+                        fontSize={'10px'}
+                        color="#9F9F9F"
+                        fontWeight={500}
+                    >
                         Email
                     </Typography>
-                    <Typography variant="p" component="p" fontWeight={'500'}>
+                    <Typography
+                        variant="p"
+                        component="p"
+                        fontWeight={700}
+                        fontSize={'12px'}
+                        color="#2b2b2b"
+                    >
                         pattrick@example.com
                     </Typography>
                 </Box>
                 {/* phone */}
-                <Box sx={{ marginBottom: 1 }}>
-                    <Typography variant="p" fontSize={'small'} color="#888">
+                <Box sx={{ marginBottom: '17px' }}>
+                    <Typography
+                        variant="p"
+                        fontSize={'10px'}
+                        color="#9F9F9F"
+                        fontWeight={500}
+                    >
                         Phone
                     </Typography>
-                    <Typography variant="p" component="p" fontWeight={'500'}>
+                    <Typography
+                        variant="p"
+                        component="p"
+                        fontWeight={700}
+                        fontSize={'12px'}
+                        color="#2b2b2b"
+                    >
                         (001) 546-8528
                     </Typography>
                 </Box>
                 {/* contact owner */}
-                <Box sx={{ marginBottom: 1 }}>
-                    <Typography variant="p" fontSize={'small'} color="#888">
+                <Box sx={{ marginBottom: '17px' }}>
+                    <Typography
+                        variant="p"
+                        fontSize={'10px'}
+                        color="#9F9F9F"
+                        fontWeight={500}
+                    >
                         Contact Owner
                     </Typography>
-                    <Typography variant="p" component="p" fontWeight={'500'}>
+                    <Typography
+                        variant="p"
+                        component="p"
+                        fontWeight={700}
+                        fontSize={'12px'}
+                        color="#2b2b2b"
+                    >
                         James Dean
                     </Typography>
                 </Box>
                 {/* job title */}
-                <Box sx={{ marginBottom: 1 }}>
-                    <Typography variant="p" fontSize={'small'} color="#888">
+                <Box sx={{ marginBottom: '17px' }}>
+                    <Typography
+                        variant="p"
+                        fontSize={'10px'}
+                        color="#9F9F9F"
+                        fontWeight={500}
+                    >
                         Job Title
                     </Typography>
-                    <Typography variant="p" component="p" fontWeight={'500'}>
+                    <Typography
+                        variant="p"
+                        component="p"
+                        fontWeight={700}
+                        fontSize={'12px'}
+                        color="#2b2b2b"
+                    >
                         Software Developer
                     </Typography>
                 </Box>
                 {/* annual revenue */}
-                <Box sx={{ marginBottom: 10 }}>
-                    <Typography variant="p" fontSize={'small'} color="#888">
+                <Box sx={{ marginBottom: 8 }}>
+                    <Typography
+                        variant="p"
+                        fontSize={'10px'}
+                        color="#9F9F9F"
+                        fontWeight={500}
+                    >
                         Annual Revenue
                     </Typography>
-                    <Typography variant="p" component="p" fontWeight={'500'}>
+                    <Typography
+                        variant="p"
+                        component="p"
+                        fontWeight={700}
+                        fontSize={'12px'}
+                        color="#2b2b2b"
+                    >
                         $ 100,000
                     </Typography>
                 </Box>

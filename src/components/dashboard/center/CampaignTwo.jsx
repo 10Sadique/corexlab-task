@@ -8,7 +8,7 @@ import { Box } from '@mui/system';
 import author from '../../../assets/author.svg';
 import cal from '../../../assets/calender.svg';
 
-const CamapignOne = () => {
+const CamapignTwo = () => {
     return (
         <div className="bg-white rounded-lg mt-2 shadow">
             <Box sx={{ padding: 1.5, display: 'flex', alignItems: 'center' }}>
@@ -142,13 +142,13 @@ const CamapignOne = () => {
                                             gap: '11px',
                                         }}
                                     >
-                                        <div className="w-[14px] h-[14px] bg-[#EC5050]"></div>
+                                        <div className="w-[14px] h-[14px] bg-[#FECC91]"></div>
                                         <Typography
                                             color={'#2b2b2b'}
                                             fontSize={'12px'}
                                             fontWeight={500}
                                         >
-                                            High
+                                            Moderate
                                         </Typography>
                                     </Box>
                                     <ExpandMoreRounded color="disabled" />
@@ -200,4 +200,4 @@ const CamapignOne = () => {
     );
 };
 
-export default CamapignOne;
+export default CamapignTwo;

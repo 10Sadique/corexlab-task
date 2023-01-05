@@ -25,14 +25,14 @@ const LoginPage = () => {
                 {/* rect image */}
                 <div>
                     <img
-                        className="absolute top-0 -left-10 w-[45%]"
+                        className="absolute top-0 -left-14 w-[45%]"
                         src={rect2}
                         alt=""
                     />
                 </div>
                 <div>
                     <img
-                        className="absolute -top-0 -left-5 w-[45%]"
+                        className="absolute -top-0 -left-5 w-[50%]"
                         src={rect3}
                         alt=""
                     />
@@ -53,7 +53,7 @@ const LoginPage = () => {
                         <h2 className="mb-8 text-4xl">
                             Automate your message service
                         </h2>
-                        <p className="text-sm w-[60%] float-right">
+                        <p className="text-sm w-[60%] float-right font-light">
                             Make your tasks easy with Loopmee by an automated
                             integration along with your contacts
                         </p>

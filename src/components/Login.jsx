@@ -29,10 +29,13 @@ const Login = () => {
 
     return (
         <div className="text-gray-700 w-1/2">
-            <Typography variant="h5" sx={{ fontWeight: 'bold' }}>
+            <Typography
+                variant="h5"
+                sx={{ fontWeight: 500, color: '#000', fontSize: '24px' }}
+            >
                 Sign In
             </Typography>
-            <Typography variant="p" sx={{ color: '#333' }}>
+            <Typography variant="p" sx={{ color: '#949CA9', fontSize: '14px' }}>
                 Enter your credentials to access to your account
             </Typography>
             <div className="mt-5">
@@ -85,6 +88,8 @@ const Login = () => {
                     {/* Checkbox */}
                     <FormGroup>
                         <FormControlLabel
+                            fontSize="14px"
+                            color="#344054"
                             control={<Checkbox />}
                             label="Remember me"
                         />
@@ -123,7 +128,7 @@ const Login = () => {
                         marginTop: 2,
                     }}
                 >
-                    <Typography>
+                    <Typography color={'#344054'} fontSize="14px">
                         Don't have an account?{' '}
                         <Link color="#3D59DD" href="#">
                             Sign up
