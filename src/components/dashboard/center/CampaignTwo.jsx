@@ -66,7 +66,7 @@ const CamapignTwo = () => {
                 }}
             >
                 <Radio size="small" />
-                <Box>
+                <Box sx={{ width: '100%' }}>
                     <Typography variant="p" fontSize={'13px'} fontWeight={600}>
                         Prepare quote for Pattrick Leach
                     </Typography>
